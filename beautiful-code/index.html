@@ -1,0 +1,554 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+  <title>Beautiful Code</title>
+  <!-- metadata -->
+  <meta name="generator" content="S5" />
+  <meta name="version" content="S5 1.1" />
+  <meta name="presdate" content="April 2008" />
+  <meta name="author" content="Greg Wilson" />
+  <meta name="company" content="University of Toronto" />
+  <!-- configuration parameters -->
+  <meta name="defaultView" content="slideshow" />
+  <meta name="controlVis" content="hidden" />
+  <!-- style sheet links -->
+  <link rel="stylesheet" href="s5/ui/default/slides.css" type="text/css" media="projection" id="slideProj" />
+  <link rel="stylesheet" href="s5/ui/default/outline.css" type="text/css" media="screen" id="outlineStyle" />
+  <link rel="stylesheet" href="s5/ui/default/print.css" type="text/css" media="print" id="slidePrint" />
+  <link rel="stylesheet" href="s5/ui/default/opera.css" type="text/css" media="projection" id="operaFix" />
+  <!-- S5 JS -->
+  <script src="s5/ui/default/slides.js" type="text/javascript"></script>
+</head>
+
+<body>
+
+  <div class="layout">
+    <div id="controls"><!-- DO NOT EDIT --></div>
+    <div id="currentSlide"><!-- DO NOT EDIT --></div>
+    <div id="header"></div>
+    <div id="footer">
+      <h2>2009-05-05</h2>
+      <h2>Beautiful Code</h2>
+    </div>
+  </div>
+
+  <div class="presentation">
+
+    <div class="slide">
+      <table>
+        <tr>
+          <td colspan="3" align="center"><h1>Beautiful Code</h1><br/></td>
+        </tr>
+        </tr>
+        <tr>
+          <td valign="top" align="right" width="30%">
+            <img src="beautiful_code.jpg" alt="[Beautiful Code cover]"/>
+          </td>
+          <td width="10%"></td>
+          <td valign="top" width="30%">
+            <h3>Greg Wilson</h3>
+            <h4><a href="mailto:gvwilson@third-bit.com">gvwilson@third-bit.com</a></h4>
+            <h4>May 5, 2009</h4>
+          </td>
+        </tr>
+      </table>
+    </div>
+
+    <div class="slide">
+      <h1>Once Upon a Time...</h1>
+      <table width="90%">
+        <tr>
+	  <td align="center" valign="center">
+            <img src="ultrasound.jpg" alt="[ultrasound]"/>
+	  </td>
+	  <td align="center" valign="center">
+            <img src="frank_willison.png" alt="[Frank Willison]"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+            <ul>
+              <li>My wife and I decided to start a family</li>
+            </ul>
+	  </td>
+	  <td>
+            <ul>
+              <li>Plus, I had a promise to keep...</li>
+            </ul>
+	  </td>
+	</tr>
+      </table>
+    </div>
+
+    <div class="slide">
+      <h1>Plan A</h1>
+      <table width="90%">
+        <tr>
+	  <td>
+            <ul>
+              <li>Write some rilly cool software</li>
+              <li>But I'm getting old...</li>
+              <li>...and I've always been better at Version 2</li>
+            </ul>
+	  </td>
+	  <td align="center">
+            <img src="rube-goldberg.gif" alt="[Rube Goldberg]"/>
+	  </td>
+	</tr>
+      </table>
+    </div>
+
+    <div class="slide">
+      <h1>Plan B</h1>
+      <table>
+        <tr>
+          <td>
+            <ul>
+            <li>I was about to start teaching software architecture
+              <ul>
+              <li>I wasn't satisfied with any of the books I could find</li>
+              </ul>
+            </li>
+            <li>I'd dabbled enough in open source to know that people will thank you for scratching your itches in public
+              <ul>
+              <li>They might even help you</li>
+              </ul>
+            </li>
+	    <li>Maybe I could just organize something?
+	      <ul>
+	      <li>"Just"...</li>
+	      </ul>
+	    </li>
+            </ul>
+          </td>
+          <td>
+            <img src="montgomery-burns.png" title="[Montgomery Burns]"/>
+          </td>
+        </tr>
+      </table>
+    </div>
+
+    <div class="slide">
+      <h1>Everyone Else Uses Examples</h1>
+      <div align="center">
+        <img src="examples.png" alt="[examples]"/>
+      </div>
+    </div>
+
+    <div class="slide">
+      <h1>Ours Are Few and Far Between</h1>
+      <div align="center">
+        <table width="80%">
+          <tr>
+            <td align="center"><img src="lions-book.jpg" alt="[Lions Book]"/></td>
+            <td align="center"><img src="software-tools-pascal.jpg" alt="[Software Tools in Pascal]"/></td>
+            <td align="center"><img src="programming-pearls.jpg" alt="[Programming Pearls]"/></td>
+          </tr>
+        </table>
+      </div>
+    </div>
+
+    <div class="slide">
+      <h1>May I Have Your Attention Please?</h1>
+      <font size="5">
+      <pre>
+    From: Greg Wilson
+    Subject: Beautiful Code
+    Date: May 17, 2006
+
+    I hope you don't mind mail out of the blue, but I'm working on a
+    new book project with O'Reilly called "Beautiful Code" and would
+    like to ask you to contribute an article-length section. Profits
+    from the book will be donated to Amnesty International.
+
+    The book will be a collection of master classes in software design.
+    In each chapter, a well-known software developer will present one
+    of his or her favorite pieces of code, then explain what makes it
+    particularly appealing.  The aim is to "think aloud" while walking
+    through its design and implementation, so that junior developers
+    can learn to see through more experienced developers’ eyes.
+
+    Thanks,
+    Greg
+      </pre>
+      </font>
+    </div>
+
+    <div class="slide">
+      <h1>Surprises (Many Pleasant)</h1>
+      <h2>What I Expected:</h2>
+      <font size="5">
+      <pre>
+    From: [name withheld]
+    Subject: re: Beautiful Code
+
+    Sorry, I'm too busy.  Good luck.
+      </pre>
+      </font>
+      <h2>What Most People Said:</h2>
+      <font size="5">
+      <pre>
+    From: [name withheld]
+    Subject: re: Beautiful Code
+
+    I don't think I've ever written any code I'd call beautiful,
+    but I'd really like to read the book when it's done.
+      </pre>
+      </font>
+      <h2>But Quite A Few Responded With:</h2>
+      <font size="5">
+      <pre>
+    From: [name withheld]
+    Subject: re: Beautiful Code
+
+    Sure, count me in!
+      </pre>
+      </font>
+    </div>
+
+    <div class="slide">
+      <h1>Contributors</h1>
+      <font size="5">
+      <table>
+        <tr>
+          <td valign="top">Tim Bray</td>
+          <td valign="top">Jim Kent</td>
+          <td valign="top">TV Raman</td>
+        </tr>
+        <tr>
+          <td valign="top">Karl Fogel</td>
+          <td valign="top">Ronald Mak</td>
+          <td valign="top">Arun Mehta</td>
+        </tr>
+        <tr>
+          <td valign="top">Jon Bentley</td>
+          <td valign="top">Adam Kolawa</td>
+          <td valign="top">Kent Dybvig</td>
+        </tr>
+        <tr>
+          <td valign="top">Brian Hayes</td>
+          <td valign="top">Lincoln Stein</td>
+          <td valign="top">Andrew Patzer</td>
+        </tr>
+        <tr>
+          <td valign="top">Alberto Savoia</td>
+          <td valign="top">Ashish Gulhati</td>
+          <td valign="top">Bryan Cantrill</td>
+        </tr>
+        <tr>
+          <td valign="top">Andreas Zeller</td>
+          <td valign="top">Brian Kernighan</td>
+          <td valign="top">Charles Petzold
+        </tr>
+        <tr>
+          <td valign="top">Henry S. Warren</td>
+          <td valign="top">Andrew Kuchling</td>
+          <td valign="top">Michael Feathers
+        </tr>
+        <tr>
+          <td valign="top">Douglas Crockford</td>
+          <td valign="top">Greg Kroah-Hartman</td>
+          <td valign="top">Diomidis Spinellis
+        </tr>
+        <tr>
+          <td valign="top">Travis E. Oliphant</td>
+          <td valign="top">Simon Peyton Jones</td>
+          <td valign="top">Yukihiro Matsumoto
+        </tr>
+        <tr>
+          <td valign="top">Elliotte Rusty Harold&nbsp;&nbsp;&nbsp;&nbsp;</td>
+          <td valign="top">Jeff Dean &amp; Sanjay Ghemawat&nbsp;&nbsp;&nbsp;&nbsp;</td>
+          <td valign="top">Jack Dongarra &amp; Piotr Luszczek</td>
+        </tr>
+        <tr>
+          <td valign="top">William Otte &amp;<br/>Douglas C. Schmidt</td>
+          <td valign="top">Laura Wingerd &amp;<br/>Christopher Seiwald</td>
+          <td valign="top">Rogerio de Carvalho &amp;<br/>Rafael Monnerat</td>
+        </tr>
+      </table>
+      </font>
+    </div>
+
+    <div class="slide">
+      <h1>Beauty Takes Many Forms</h1>
+      <ul>
+      <li>This is not one of them</li>
+      </ul>
+      <br/>
+      <pre>
+    int j=0;
+    for (int i=0; i &lt; a.length; ++i) {
+        j++;
+    }        
+    System.out.println("array size=" + j);
+      </pre>
+      <ul>
+      <li>Other than that, little agreement about where to look</li>
+      <li>Or rather, so many possibilities that everyone found one of their own</li>
+      </ul>
+    </div>
+
+    <div class="slide">
+      <h1>Beauty in the Small (Hayes)</h1>
+      <table>
+        <tr>
+          <td><img src="hayes-01.png" alt="[Hayes figure 2]"/></td>
+          <td><img src="hayes-02.png" alt="[Hayes figure 3]"/></td>
+        </tr>
+        <tr>
+          <td><img src="hayes-03.png" alt="[Hayes figure 4]"/></td>
+          <td><img src="hayes-04.png" alt="[Hayes figure 5]"/></td>
+        </tr>
+      </table>
+    </div>
+
+    <div class="slide">
+      <h1>Beauty in the Medium (Fogel)</h1>
+      <div align="center">
+      <img src="fogel-01.png" alt="[Subversion Delta Editor]"/>
+      </div>
+    </div>
+
+    <div class="slide">
+      <h1>...Beauty in the Medium (Oliphant)</h1>
+      <div align="center">
+      <img src="oliphant-01.png" alt="[Oliphant figure 3]"/>
+      </div>
+    </div>
+
+    <div class="slide">
+      <h1>...Beauty in the Medium (Spinellis)</h1>
+      <div align="center">
+      <img src="spinellis-01.png" alt="[Spinellis]"/>
+      </table>
+      </div>
+    </div>
+
+    <div class="slide">
+      <h1>Beauty In The Large (Dean &amp; Ghemawat)</h1>
+      <div align="center">
+        <img src="mapreduce-01.png" alt="[MapReduce]"/>
+      </div>
+    </div>
+
+    <div class="slide">
+      <h1>Beauty In The Even Larger (Mak)</h1>
+      <table cellpadding="3">
+        <tr>
+          <td><img src="mak-01.png" alt="[Mak figure 1]"/></td>
+          <td rowspan="2"><img src="mak-02.png" alt="[Mak figure 2]"/></td>
+        </tr>
+	<tr>
+	  <td>What do you do when a day is 24 hr 39 min long?</td>
+	</tr>
+      </table>
+    </div>
+
+    <div class="slide">
+      <h1>The Beauty of the Classics (Kernighan)</h1>
+      <font size="4">
+        <table>
+          <tr>
+            <td valign="top">
+              <pre>
+    int match(char *regexp, char *text)
+    {
+        if (regexp[0] == '^')
+            return matchhere(regexp+1, text);
+        do {
+            if (matchhere(regexp, text))
+                return 1;
+        } while (*text++ != '\0');
+        return 0;
+    }
+            </pre>
+          </td>
+          <td valign="top">
+            <pre>
+    int matchstar(int c, char *regexp, char *text)
+    {
+        do {
+            if (matchhere(regexp, text))
+                return 1;
+        } while (*text != '\0' &amp;&amp; (*text++ == c || c == '.'));
+        return 0;
+    }
+	    </pre>
+	  </td>
+        </tr>
+	<tr>
+          <td valign="top">
+            <table>
+              <tr>
+                <td>c</td><td>any literal character</td>
+              </tr>
+              <tr>
+                <td>.</td><td>any character</td>
+              </tr>
+              <tr>
+                <td>^</td><td>matches the beginning of the input string</td>
+              </tr>
+              <tr>
+                <td>$</td><td>matches the end of the input string</td>
+              </tr>
+              <tr>
+                <td>ccc&nbsp;&nbsp;</td><td>any sequence of characters or .'s</td> 
+              </tr>
+              <tr>
+               <td>*</td><td>closure: zero or more of the previous character</td>
+              </tr>
+            </table>
+	  </td>
+	  <td valign="top">
+            <pre>
+    int matchhere(char *regexp, char *text)
+    {
+        if (regexp[0] == '\0')
+            return 1;
+        if (regexp[1] == '*')
+            return matchstar(regexp[0], regexp+2, text);
+        if (regexp[0] == '$' &amp;&amp; regexp[1] == '\0')
+            return *text == '\0';
+        if (*text!='\0' &amp;&amp; (regexp[0]=='.' || regexp[0]==*text))
+            return matchhere(regexp+1, text+1);
+        return 0;
+    }
+            </pre>
+	  </td>
+	</tr>
+      </table>
+    </font>
+    </div>
+
+    <div class="slide">
+      <h1>The Beauty of Utility (Kolawa)</h1>
+      <font size="5">
+      <pre>
+      SUBROUTINE SGBSV( N, KL, KU, NRHS, AB, LDAB, IPIV, B, LDB, INFO )
+*
+*  -- LAPACK driver routine (version 2.0) --
+*     ..
+*     .. Scalar Arguments ..
+      INTEGER            INFO, KL, KU, LDAB, LDB, N, NRHS
+*     ..
+*     .. Array Arguments ..
+      INTEGER            IPIV( * )
+      REAL               AB( LDAB, * ), B( LDB, * )
+      </pre>
+      </font>
+      <ul>
+      <li>Easy to mock, but how much code has been in daily use for 35 years?</li>
+      <li>On dozens of novel architectures?</li>
+      </ul>
+    </div>
+
+    <div class="slide">
+      <h1>Utility Takes Many Forms (Mehta)</h1>
+      <div align="center">
+        <table>
+          <tr>
+            <td><img src="mehta-02.png" alt="[Hawking's hardware]"/></td>
+            <td><img src="mehta-01.png" alt="[Hawking's interface]"/></td>
+          </tr>
+        </table>
+      </div>
+    </div>
+
+    <div class="slide">
+      <h1>The Beauty of Compromise (Crockford)</h1>
+      <font size="5">
+      <pre>
+     The turnstile hash table is partitioned into two halves: the lower half
+     is used for upimutextab[] locks, the upper half for everything else.
+     The reason for the distinction is that SOBJ_USER_PI locks present a
+     unique problem: the upimutextab[] lock passed to turnstile_block()
+     cannot be dropped until the calling thread has blocked on its
+     SOBJ_USER_PI lock and willed its priority down the blocking chain.
+     At that point, the caller's t_lockp will be one of the turnstile locks.
+     If mutex_exit() discovers that the upimutextab[] lock has waiters, it
+     must wake them, which forces a lock ordering on us: the turnstile lock
+     for the upimutextab[] lock will be acquired in mutex_vector_exit(),
+     which will eventually call into turnstile_pi_waive(), which will then
+     acquire the caller's thread lock, which in this case is the turnstile
+     lock for the SOBJ_USER_PI lock.  In general, when two turnstile locks
+     must be held at the same time, the lock order must be the address order.
+     Therefore, to prevent deadlock in turnstile_pi_waive(), we must ensure
+     that upimutextab[] locks *always* hash to lower addresses than any
+     other locks.  <strong>You think this is cheesy?  Let's see you do better.</strong>
+      </pre>
+      </font>
+    </div>
+
+    <div class="slide">
+      <h1>Theory Made Practice</h1>
+      <ul>
+      <li>Kent Dybvig on Scheme's syntax-case expander</li>
+      <li>Simon Peyton Jones on software transactional memory</li>
+      <li>Jon Bentley on Quicksort</li>
+      <li>Yukihiro Matsumoto on language design</li>
+      </ul>
+      <font size="5">
+      <pre><em>
+    Simplicity is one of the most misunderstood
+    concepts in programming.  People who design
+    languages frequently want to keep those
+    languages simple and clean.  While the
+    sentiment is noble, doing this can make
+    programs written in that language more complex.
+      </em></pre>
+      </font>
+    </div>
+
+    <div class="slide">
+      <h1>Beauty As A Process</h1>
+      <ul>
+      <li>Alberto Savoia on beautiful testing</li>
+      <li>Andreas Zeller on beautiful debugging</li>
+      <li>Laura Wingerd &amp; Christopher Seiwald on beautiful version control
+        <ul>
+        <li>How do you design code so that it will survive decades of branching and merging?</li>
+        </ul>
+      </li>
+      </ul>
+      <br/>
+      <div align="center">
+        <img src="perforce-01.png" alt="[Perforce branching history]"/>
+      </div>
+    </div>
+
+    <div class="slide">
+      <h1>Reactions</h1>
+      <ul>
+      <li>Is "beauty" too much to hope for in something so abstract?
+        <ul>
+        <li>I thik the blueprints for St. Paul's are beautiful</li>
+        <li>I'm not sure about the classification of finite groups</li>
+        </ul>
+      </li>
+      <li>Gioia's <cite>The Imperfect Art</cite> may provide some guidance
+        <ul>
+	<li>Existence of recording encouraged artists to redefine perfection</li>
+	<li>We can define any esthetic for software we want</li>
+	</ul>
+      </li>
+      </ul>
+      </div>
+    </div>
+
+    <div class="slide">
+      <h1>Why Should We Care?</h1>
+      <table width="90%">
+        <tr>
+          <td align="center"><img src="steam-engine.jpg" alt="[Steam Engine]"/></td>
+          <td align="center"><img src="quilt.jpg" alt="[Quilt]"/></td>
+        </tr>
+        <tr>
+          <td align="center">Beauty is truth, truth beauty</td>
+          <td align="center">Pride</td>
+        </tr>
+      </table>
+    </div>
+
+</body>
+</html>

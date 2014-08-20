@@ -1,0 +1,29 @@
+Title: Beautiful Code
+
+Abstract:
+
+Architects have favorite buildings, mathematicians know an elegant
+proof when they see one, and every hockey player in Canada has seen
+Paul Henderson score the winning goal in the Summit Series.  But what
+about programmers?  What are our classics?  Where are the models we
+should be emulating?
+
+In 2006, we invited some famous and not-yet-famous software developers
+to write essays about their favorite piece of code.  The breadth and
+depth of the responses surprised us: some people focused on counting
+bits, while others found beauty in enterprise-scale architectures,
+one-of-a-kind user interfaces, the way code is developed, or even in
+legacy FORTRAN.  This talk will sample their ideas, and try to answer
+the question: should software even try to be beautiful?
+
+Bio:
+
+Greg Wilson holds a Ph.D. in Computer Science from the University of
+Edinburgh, and has worked on high-performance scientific computing,
+data visualization, and computer security.  He is now an Assistant
+Professor in Computer Science at the University of Toronto, where his
+primary research interest is lightweight software engineering tools.
+Greg is on the editorial boards of "Doctor Dobb's Journal" and
+"Computing in Science and Engineering"; his most recent books are
+"Data Crunching" (Pragmatic Bookshelf, 2005) and "Beautiful Code"
+(O'Reilly, 2007).
